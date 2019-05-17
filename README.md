@@ -13,7 +13,7 @@ Everything to get a basic React app displaying within any WordPress page using a
 1. Go to Plugins and activate the Sample Plugin
 1. Go to `Pages` > `Create New` and make a new page containing the content `[display_react_app_here]`. This WordPress shortcode will render the react code and mount it to this location.
 
-### Testing
+### Linting
 
 1. `yarn eslint` ( or `yarn eslint --fix`)
 1. `yarn sass-lint`

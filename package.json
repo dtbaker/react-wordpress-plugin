@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "development": "webpack --progress --colors --watch --mode=development",
-    "production": "webpack --colors -p --config webpack.config.js --mode=production"
+    "production": "webpack --colors -p --config webpack.config.js --mode=production",
+    "eslint": "node_modules/.bin/eslint src --ext .js --ext .jsx",
+    "sass-lint": "node_modules/sass-lint/bin/sass-lint.js -c ./.sass-lint.yml -v -q"
   },
   "dependencies": {
     "body-scroll-lock": "^2.6.1",
@@ -60,6 +62,7 @@
     "node-sass": "^4.12.0",
     "prettier": "^1.16.4",
     "run-sequence": "^2.2.1",
+    "sass-lint": "^1.13.1",
     "terser-webpack-plugin": "^1.2.3",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",

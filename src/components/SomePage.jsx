@@ -10,17 +10,18 @@ class SomePage extends React.PureComponent {
   }
 
   render() {
-    const {meow} = this.state
+    const { meow } = this.state
 
     return (
       <div className={styles.wrap}>
+        <div>Hey I am react! Current state is: {meow}</div>
         <div>
-          Hey I'm react! Current state is: {meow}
-        </div>
-        <div>
-          <button onClick={() => {
-            this.setState({meow: meow === "foo" ? "bar" : "foo"})
-          }}>Change State
+          <button
+            type="button"
+            onClick={() => {
+              this.setState({ meow: meow === "foo" ? "bar" : "foo" })
+            }}>
+            Change State
           </button>
         </div>
       </div>

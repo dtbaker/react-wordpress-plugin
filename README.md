@@ -1,5 +1,7 @@
 ## Super simple react WordPress plugin
 
+Everything to get a basic React app displaying within any WordPress page using a shortcode. Screenshot below.
+
 ### Getting started:
 
 1. Install WordPress locally (I suggest using `valet` to easily create a local  `wordpress-plugin.test` domain)
@@ -10,6 +12,11 @@
 1. Login to `wordpress-plugin.test/wp-admin/`
 1. Go to Plugins and activate the Sample Plugin
 1. Go to `Pages` > `Create New` and make a new page containing the content `[display_react_app_here]`. This WordPress shortcode will render the react code and mount it to this location.
+
+### Testing
+
+1. `yarn eslint` ( or `yarn eslint --fix`)
+1. `yarn sass-lint`
 
 ### Deploy
 

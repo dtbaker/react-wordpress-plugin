@@ -29,6 +29,26 @@ It should look like this after you add the shortcode to a page:
 
 ![sample output](https://raw.githubusercontent.com/dtbaker/react-wordpress-plugin/master/output.gif)
 
+```
+render() {
+  const { meow } = this.state
+  return (
+    <div className={styles.wrap}>
+      <div>Hey I am react! Current state is: {meow}</div>
+      <div>
+        <button
+          type="button"
+          onClick={() => {
+            this.setState({ meow: meow === "foo" ? "bar" : "foo" })
+          }}>
+          Change State
+        </button>
+      </div>
+    </div>
+  )
+}
+```
+
 
 ### Todo:
 

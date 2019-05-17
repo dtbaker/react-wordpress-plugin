@@ -6,7 +6,7 @@ Everything to get a basic React app displaying within any WordPress page using a
 
 1. Install WordPress locally (I suggest using `valet` to easily create a local  `wordpress-plugin.test` domain)
 1. `cd /path/to/wordpress/wp-content/plugins/`
-1. `git clone `
+1. `git clone git@github.com:dtbaker/react-wordpress-plugin.git`
 1. `cd /path/to/wordpress/wp-content/plugins/react-wordpress-plugin/`
 1. `yarn development`
 1. Login to `wordpress-plugin.test/wp-admin/`

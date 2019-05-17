@@ -1,0 +1,43 @@
+options:
+  formatter: stylish
+  merge-default-rules: true
+  max-warnings: 0
+files:
+  include:
+  - 'src/**/*.s+(a|c)ss'
+ # Documentation: https://github.com/sasstools/sass-lint/tree/master/docs/rules
+rules:
+  class-name-format:
+    - 1
+    -
+      convention: camelcase
+  space-around-operator: 0
+  property-sort-order: 0
+  leading-zero: 0
+  no-duplicate-properties: 0
+  no-url-domains: 0
+  no-url-protocols: 0
+  placeholder-name-format:
+    - 1
+    -
+      convention: camelcase
+  no-color-literals: 0
+  nesting-depth: 0
+  placeholder-in-extend: 0
+  indentation: 0
+  no-vendor-prefixes: 0
+  force-pseudo-nesting: 0
+
+  variable-name-format:
+    - 1
+    -
+      convention: camelcase
+  function-name-format:
+    - 1
+    -
+      convention: camelcase
+  mixin-name-format:
+    - 1
+    -
+      convention: camelcase
+  mixins-before-declarations: 0

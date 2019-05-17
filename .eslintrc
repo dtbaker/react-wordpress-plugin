@@ -1,0 +1,39 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true
+  },
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier",
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "useTabs": false,
+        "semi": false,
+        "tabWidth": 2,
+        "printWidth": 120,
+        "arrowParens": "always",
+        "trailingComma": "all",
+        "jsxBracketSameLine": true
+      }
+    ],
+    "no-plusplus": "off",
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js",".jsx"],
+        "paths": ["./src/js"]
+      }
+    }
+  },
+}

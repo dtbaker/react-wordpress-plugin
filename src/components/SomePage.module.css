@@ -1,0 +1,8 @@
+.wrap {
+  display: flex;
+  margin: 20px;
+  border: 2px solid #ccc;
+  background: #fff;
+  padding: 20px;
+  flex-direction: column;
+}
